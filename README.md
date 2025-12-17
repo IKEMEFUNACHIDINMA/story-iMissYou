@@ -4,7 +4,7 @@ A simple web animation that tells a sweet story of a girl stick figure saying "I
 
 ## Demo
 
-[Live Demo](link-to-your-demo) 
+[Live Demo](https://stick-story.vercel.app/) 
 
 ## Features
 
