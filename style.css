@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: #0a0a14;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.scene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+.person {
+    overflow: visible;
+}
+
+.speech {
+    position: absolute;
+    top: 15%;
+    /* Moved up from 30% */
+    font-size: 24px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Add a little triangle pointer if we wanted, but simple is fine */
+}
+
+.final-text {
+    font-size: 100px;
+    color: #ff4d4d;
+    text-shadow: 0 0 20px rgba(255, 77, 77, 0.5);
+}
